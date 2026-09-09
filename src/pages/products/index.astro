@@ -4,26 +4,28 @@ import Base from "../../layouts/Base.astro";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 const products = [
-  {
-    name: "Closway",
-    href: `${base}/products/closway/`,
-    description:
-      "服を撮るだけで AI が属性自動抽出する iOS クローゼット管理アプリ",
-    links: [
-      {
-        label: "Privacy Policy",
-        href: `${base}/products/closway/privacy-policy/`,
-      },
-      {
-        label: "Terms",
-        href: `${base}/products/closway/terms/`,
-      },
-      {
-        label: "Support",
-        href: `${base}/products/closway/support/`,
-      },
-    ],
-  },
+  // 一旦非公開: Closway のカードを Products 一覧から除外中
+  // (各ページ /products/closway/ 配下は引き続き公開)
+  // {
+  //   name: "Closway",
+  //   href: `${base}/products/closway/`,
+  //   description:
+  //     "服を撮るだけで AI が属性自動抽出する iOS クローゼット管理アプリ",
+  //   links: [
+  //     {
+  //       label: "Privacy Policy",
+  //       href: `${base}/products/closway/privacy-policy/`,
+  //     },
+  //     {
+  //       label: "Terms",
+  //       href: `${base}/products/closway/terms/`,
+  //     },
+  //     {
+  //       label: "Support",
+  //       href: `${base}/products/closway/support/`,
+  //     },
+  //   ],
+  // },
   {
     name: "Tokyo Master",
     href: `${base}/products/tokyo-master/`,
